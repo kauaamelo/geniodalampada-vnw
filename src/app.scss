@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Sevillana", serif;
+}
+
+main {
+    background-image: url('../src/assets/image/fundoAlladin.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    img {
+        width: 35vw;
+    }
+
+    p {
+        font-size: 62px;        
+    }
+
+    button {
+        width: 20vw;
+        height: 10vh;
+        background-color: #007BFF;
+        border: none;
+        border-radius: 50px;
+        font-size: 40px;
+    }
+
+}
