@@ -36,3 +36,24 @@ main {
     }
 
 }
+
+@media (max-width: 780px) {
+    main{
+        background-position: center;
+        height: 100vh;
+
+        img {
+            width: 70%;
+        }
+
+        p {
+            font-size: 45px;        
+        }
+
+        button {
+            width: 50vw;
+            height: 10vh;
+            font-size: 35px;
+        }
+    }
+}
